@@ -1,0 +1,29 @@
+[ 2016-04-06T20:57:46+08:00 ] ::1 /testexcel/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-04-06T21:04:16+08:00 ] ::1 /testexcel/
+ERR: 模板不存在:./App/Home/View/Index/index.html
+
+[ 2016-04-06T21:51:14+08:00 ] ::1 /testexcel/index.php/Home/Index/impUser.html
+ERR: Could not open  for reading! File does not exist, or it is not readable.
+
+[ 2016-04-06T21:52:20+08:00 ] ::1 /testexcel/index.php/Home/Index/impUser.html
+ERR: Could not open  for reading! File does not exist, or it is not readable.
+
